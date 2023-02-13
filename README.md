@@ -17,8 +17,8 @@ The component uses a store to keep the messages. The objects representing the al
 
 ## Notes
 
-* A sample *package.json* is included.
-* You can try it live [here](https://svelte.dev/repl/f2b3c33763e34908aabf436c9c02c07f).
+* A sample *package.json* is included, to show which the dependencies are.
+* You can **try it live** [here](https://svelte.dev/repl/f2b3c33763e34908aabf436c9c02c07f).
 
 ## License
 
