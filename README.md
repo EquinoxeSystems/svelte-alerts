@@ -4,7 +4,7 @@ This is a [Svelte](https://svelte.dev/) component for managing and displaying al
 
 The component uses a store to keep the messages. The objects representing the alerts have the following structure:
 
-```
+```javascript
 {
     id: // automatic
     type: // uno de ['info', 'danger', 'warning', 'success'], default 'info'
