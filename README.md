@@ -1,6 +1,6 @@
 # svelte-alerts
 
-This is a [Svelte](https://svelte.dev/) component for managing and displaying alerts. The alert message is displayed using the [Sveltestrap Alert](https://sveltestrap.js.org/?path=/story/components--alert) component. Of course, you can replace this component with one that suites your application.
+This is a [Svelte](https://svelte.dev/) component for managing and displaying alerts. The alert message is displayed using the [Sveltestrap Alert](https://sveltestrap.js.org/?path=/story/components--alert) component. Of course, you can replace this component with one that suites your application. And, of course, you can replace Bootstrap with any other CSS system, or your own stylesheets. And, finally, you can also change the material-icons for some of your preference.
 
 The component uses a store to keep the messages. The objects representing the alerts have the following structure:
 
