@@ -15,6 +15,10 @@ The component uses a store to keep the messages. The objects representing the al
 }
 ```
 
+## Usage
+
+
+
 ## Notes
 
 * A sample *package.json* is included, to show which the dependencies are.
