@@ -15,9 +15,27 @@ The component uses a store to keep the messages. The objects representing the al
 }
 ```
 
+## Installation
+
+Copy the *Alerts* directory to your components directory.
+
 ## Usage
 
+```javascript
+<script>
+    // You must adjust the paths according to your setup:
+	import Alert from "components/Alerts/index.svelte";
+	import { alerts } from "components/Alerts/store";
+</script>
 
+<!-- the widget which displays alerts -->
+
+<Alert></Alert>
+
+<!-- you add messages to the alert store, which are displayed by the Alert widget -->
+
+<button on:click="{() => alerts.add({message:"OK", type:"success", timeout:5000})}" class="btn btn-success">OK</button>
+```
 
 ## Notes
 
