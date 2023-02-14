@@ -23,9 +23,9 @@ Copy the *Alerts* directory to your components directory.
 
 ```javascript
 <script>
-    // You must adjust the paths according to your setup:
-	import Alert from "components/Alerts/index.svelte";
-	import { alerts } from "components/Alerts/store";
+// You must adjust the paths according to your setup:
+import Alert from "components/Alerts/index.svelte";
+import { alerts } from "components/Alerts/store";
 </script>
 
 <!-- the widget which displays alerts -->
