@@ -20,6 +20,10 @@ The component uses a store to keep the messages. The objects representing the al
 }
 ```
 
+## Dependencies
+
+* [Sveltestrap](https://sveltestrap.js.org/?path=/story/components--alert) (you can use any other component for displaying alerts)
+
 ## Installation
 
 Copy the *Alerts* directory to your components directory.
